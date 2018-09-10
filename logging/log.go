@@ -3,7 +3,7 @@ package logging
 import (
 	"os"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 var log *logrus.Logger

@@ -33,7 +33,7 @@ func (q *Queue) Pop() (interface{}, error) {
 	q.Lock()
 	defer q.Unlock()
 	if len(q.queue) == 0 {
-		return nil, errors.New("Очередь пуста")
+		return nil, errors.New("queue is empty")
 	}
 	popped := q.queue[0]
 	q.queue = q.queue[1:]

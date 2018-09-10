@@ -28,7 +28,7 @@ This client is mainly for testing purposes.
 
 ## Installation
 
-    go get github.com/mtfelian/golang-socketio
+    go get github.com/mlsquires/golang-socketio
 
 ## TODOs, ideas to further development
 

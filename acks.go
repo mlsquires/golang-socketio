@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/mlsquires/synced"
+	"github.com/mtfelian/synced"
 )
 
 var (
