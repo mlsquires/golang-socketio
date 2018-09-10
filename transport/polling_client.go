@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mtfelian/golang-socketio/logging"
-	"github.com/mtfelian/golang-socketio/protocol"
+	"github.com/mlsquires/golang-socketio/logging"
+	"github.com/mlsquires/golang-socketio/protocol"
 )
 
 var (
